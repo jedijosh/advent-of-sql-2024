@@ -1,0 +1,1 @@
+drop table if exists panel_production_daily;

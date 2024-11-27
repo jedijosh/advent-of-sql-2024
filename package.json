@@ -1,0 +1,22 @@
+{
+    "name": "advent-of-sql-2025",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "db-migrate-down": "NODE_ENV=development npx db-migrate down --config config/database.json",
+      "db-migrate-up": "NODE_ENV=development npx db-migrate up --config config/database.json",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "config": "3.3.12",
+      "db-migrate": "0.11.14",
+      "db-migrate-mysql": "2.3.2",
+      "express": "4.18.2",
+      "mysql2": "3.11.0",
+      "node-fetch": "2.7.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
